@@ -8,12 +8,12 @@ DEVCORE CONFERENCE 2024 「牆の調查：致 WAF 前的你」 (Mico)
 
 
 # Conference Info
-**Conference Title**: DEVCORE CONFERENCE 2024
-**Date**: 2024.03.16
+**Conference Title**: DEVCORE CONFERENCE 2024\
+**Date**: 2024.03.16\
 **Location**: TICC 台北國際會議中心 201 會議室（台北市信義區信義路五段 1 號）
 
-**Presentation Title**: 牆の調查：致 WAF 前的你
-**Speaker**: 高敏睿 (Mico) ｜ DEVCORE 資深紅隊演練專家
+**Presentation Title**: 牆の調查：致 WAF 前的你\
+**Speaker**: 高敏睿 (Mico) ｜ DEVCORE 資深紅隊演練專家\
 **Description**:
 >"WAF" 作為一種已臻於成熟的技術產品，不僅是抵禦網路威脅的高壘深塹，其發展速度也猶如是向紅隊發出了挑戰。本議程將回顧早期的繞過技巧，以及介紹至今紅隊專家如何鑿壁偷光？議程中將簡單解析 WAF 的基本原理，探討紅隊如何在實際情況中，成功讓關鍵請求繞過這些安全措施。亦會分享一些從實戰中提煉出的經驗，包括那些起初看似不可能繞過，卻屢屢成功實現的真實案例。最後將從戴夫寇爾視角總結 WAF 在當今網路安全生態中的地位和效力。
 
