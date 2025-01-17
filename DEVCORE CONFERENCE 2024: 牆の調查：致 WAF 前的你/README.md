@@ -6,9 +6,6 @@ disqus: hackmd
 DEVCORE CONFERENCE 2024 「牆の調查：致 WAF 前的你」 (Mico)
 ===
 
-# Table of Contents
-
-[TOC]
 
 # Conference Info
 **Conference Title**: DEVCORE CONFERENCE 2024
