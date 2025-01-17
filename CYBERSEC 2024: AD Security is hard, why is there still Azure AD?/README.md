@@ -48,11 +48,11 @@ Azure AD的主要功能包括身份驗證、單一登入（Single Sign-On，SSO�
 ### Azure Role-Based Access Control (RBAC)
 [Azure RBAC](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview) 是一種用於管理 Azure 資源存取權的授權系統，基於 「最小權限原則」，只允許使用者取得工作所需最低權限，從而提升安全性並簡化存取管理。
 ![image](https://hackmd.io/_uploads/SyKS8opVyx.png)
-1. 指派 User 角色
+1. 指派 User 角色\
 ![image](https://hackmd.io/_uploads/B1qo8sTNJl.png)
-2. 定義角色權限
+2. 定義角色權限\
 ![image](https://hackmd.io/_uploads/r1dALjaVJl.png)
-3. 角色分配
+3. 角色分配\
 將角色附加到特定範圍內的 user, group, service principal, or managed identity
 ![image](https://hackmd.io/_uploads/Hyq7PipN1e.png)
 
