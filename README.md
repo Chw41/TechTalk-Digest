@@ -7,6 +7,6 @@ A collection of explanations and insights from various technical talks, includin
 ├── README.md
 ├── DEVCORE CONFERENCE 2024: 牆の調查：致 WAF 前的你/
 ├── CYBERSEC 2024: AD Security is hard, why is there still Azure AD?/
-├── CYBERSEC 2025: Operations Security (OPSEC) — The Secrets to Red Team's Stealth!
+├── CYBERSEC 2025: Operations Security (OPSEC) — The Secrets to Red Team's Stealth!/
 └── DEVCORE CONFERENCE 2025: WorstFit: Unveiling Hidden Transformers in Windows ANSI!/
 ```
