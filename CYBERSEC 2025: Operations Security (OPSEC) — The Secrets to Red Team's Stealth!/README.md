@@ -293,28 +293,28 @@ Tunnel-Based Tool 主要是為開發者設計的，可將本機或內網的一�
 Cloud Based C2 可將雲端直接當 C2 Server 或 Redirector。直接在 AWS EC2 / GCP / Azure VM 上跑 TS，或用 AWS Lambda / API Gateway / Cloud Functions 當 C2 前門\
 藍隊 🔵：也無法直接 Block AWS EC2 / CloudFront，因為一堆正常服務也在上面。\
 ![image](https://hackmd.io/_uploads/Bkh22Cqx-e.png)
-> - IaaS / VPS:
+> - IaaS / VPS:\
 > AWS EC2 / Lightsail, GCP Compute Engine, Azure VM, DigitalOcean, Vultr, Linode, Hetzner\
 直接跑 CS TS、Mythic、Sliver、Covenant 等 C2 framework
->- PaaS / Serverless:
+>- PaaS / Serverless:\
 >[web app redirector] Heroku, Render, Railway, Flyio
 [function] AWS Lambda, Azure Functions, GCP Cloud Functions\
 [REST API] AWS API Gateway, Azure API Management
->- CDN / Fronting / Edge: 
+>- CDN / Fronting / Edge: \
 [Domain Fronting] CloudFront / Fastly / Akamai / Cloudflare CDN\
 [Edge Node] Cloudflare Workers / AWS Lambda@Edge\
 Encrypted Client Hello (ECH) + Fronting
->- Container / Orchestration:
+>- Container / Orchestration:\
 AWS ECS / Fargate / Kubernetes（EKS/GKE/AKS）
 
 ### - Legitimate Software as C2
 只要軟體能讀寫資料、可透過網路同步，就有可能被改造為 C2 Channel\
 ![image](https://hackmd.io/_uploads/rJxrJJogbx.png)
-> - SNS Program:
+> - SNS Program:\
 Slack bot, Microsoft Teams bot, Discord webhook, LINE Bot, Telegram Bot API, Mastodon, Rocket.Chat
-> - Storage / File / Docs:
+> - Storage / File / Docs:\
 Google Drive, OneDrive, Dropbox, Box, Google Docs, Notion, Confluence, GitLab, Bitbucket
-> - Other SaaS:
+> - Other SaaS:\
 Jira, ServiceNow, Zendesk, Pastebin, hastebin, SMTP
 
 或是... Counter Strike 1.6\
@@ -527,7 +527,7 @@ Process Explorer：`CreateRemoteThread`, `NtQueueApcThread`, `SetWindowsHookEx`,
 隱藏行程名稱，藏在 explorer.exe, svchost.exe 等，利用現成權限與網路通路，把檔案 IO / network 事件歸到其他 process。
 
 #### - Kerberos OPSec
-在做 Kerberoasting、S4U、Golden Ticket、Shadow Credentials 等手法時，也要顧操作痕跡：加密型別、存活時間、log pattern，避免一眼被看出來
+在做 Kerberoasting、S4U、Golden Ticket、Shadow Credentials 等手法時，也要顧操作痕跡：加密型別、存活時間、log pattern，避免一眼被看出來\
 ![image](https://hackmd.io/_uploads/r1aBi-jeZl.png)
 >1. 盡量使用 AES 型的加密（`aes256_cts_hmac_sha1`），避免 RC4 老演算法
 >2. 不要使用 Golden Ticket，使用Diamond, Sapphire ticket
